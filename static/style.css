@@ -1,0 +1,71 @@
+.navbar-item {
+    font-weight: bold;
+    color: white;
+}
+
+.intro {
+    background-color: orange;
+    border: none;
+    padding: 0 60px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 8px rgb(191, 191, 189);
+}
+
+.intro:focus {
+    box-shadow: 5px 5px 8px rgb(191, 191, 189) !important;
+}
+
+.hr {
+    width: 7%;
+    background-color: gray;
+    opacity: .5;
+    height: 4px;
+}
+
+.developers {
+    border: 7px solid rgb(255, 0, 212);
+    box-shadow: 0 0 10px 10px yellow;
+}
+
+.footer-input {
+    color: white;
+    opacity: .4;
+    border: none;
+}
+.cont_hero {
+    position: relative;
+}
+.navbar-burger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+.responsive {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.footer .columns .column:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+
+@media screen and (width: 1024px) {
+    .level_flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .level-item {
+        margin-top: 15px;
+    }
+}
